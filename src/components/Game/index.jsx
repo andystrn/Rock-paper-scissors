@@ -49,7 +49,7 @@ const Game = () => {
 
     const handleClick = () => {
         if (player1 === player2) {
-            setMsg('Má sice dvě ruce, ale i tak nemůže hrát sám se s sebou.')
+            setMsg('Má sice dvě ruce, ale i tak nemůže hrát sám se sebou.')
             return;
         }
 
