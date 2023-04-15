@@ -1,0 +1,20 @@
+header, footer, button {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(199,241,105,0.7707457983193278) 0%, rgba(129,171,63,1) 100%);
+}
+
+.tile {
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(245,250,234,0.7707457983193278) 0%, rgba(225,228,220,0.07326680672268904) 100%);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(199,241,105,0.7707457983193278);
+  min-width: 100px;
+  max-width: 300px;
+}
+
+button {
+  color: black !important;
+  box-shadow: 0 0 5px rgba(199,241,105,0.7707457983193278);
+  border: none !important;
+  outline: none;
+}
