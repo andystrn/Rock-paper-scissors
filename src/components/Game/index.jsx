@@ -54,7 +54,7 @@ const Game = () => {
         }
 
         if (findEnemies(player1, player2)) {
-            setMsg('Tito dva hráči už spoli hráli, vyber jiného soupeře.')
+            setMsg('Tito dva hráči už spolu hráli, vyber jiného soupeře.')
             return;
         }
 
