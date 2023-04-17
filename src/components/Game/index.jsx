@@ -33,6 +33,8 @@ const Game = () => {
         setScore1(0);
         setScore2(0);
         setMsg('');
+        setPlayer1Choice([]);
+        setPlayer2Choice([]);
     }
 
     const handlePlayer2Change = (player) => {
@@ -40,6 +42,8 @@ const Game = () => {
         setScore2(0);
         setScore1(0);
         setMsg('');
+        setPlayer1Choice([]);
+        setPlayer2Choice([]);
     }
 
     const generateChoice = () => {
